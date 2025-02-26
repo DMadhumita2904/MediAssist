@@ -7,7 +7,7 @@ import base64
 import json
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyAYfcTAFba5mn5LXw4UNNfnBvQEgmNbAos"  # Replace with your actual API key
+GEMINI_API_KEY = "YOUR GEMINI API KEY"  # Replace with your actual API key
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')  # Using Gemini 1.5 Flash
 
